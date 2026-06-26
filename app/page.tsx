@@ -6,24 +6,9 @@ const pairings = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen overflow-hidden bg-cream text-ink">
+    <main className="overflow-hidden bg-cream text-ink">
       <section className="relative isolate px-6 py-8 sm:px-10 lg:px-16">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,_rgba(255,90,60,0.28),_transparent_34%),radial-gradient(circle_at_80%_20%,_rgba(31,122,77,0.18),_transparent_28%)]" />
-        <nav className="mx-auto flex max-w-7xl items-center justify-between rounded-full border border-white/70 bg-white/60 px-5 py-4 shadow-sm backdrop-blur">
-          <div className="flex items-center gap-3 text-xl font-black tracking-tight">
-            <span className="grid h-10 w-10 place-items-center rounded-full bg-tomato text-white shadow-glow">
-              Y
-            </span>
-            YumPair
-          </div>
-          <a
-            href="#join"
-            className="rounded-full bg-ink px-5 py-2.5 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-basil"
-          >
-            Join waitlist
-          </a>
-        </nav>
-
         <div className="mx-auto grid max-w-7xl items-center gap-14 py-20 lg:grid-cols-[1.05fr_0.95fr] lg:py-28">
           <div>
             <p className="mb-5 inline-flex rounded-full border border-tomato/20 bg-white/70 px-4 py-2 text-sm font-bold uppercase tracking-[0.24em] text-tomato">
